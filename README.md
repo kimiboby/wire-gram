@@ -1,6 +1,8 @@
 # WIRE-GRAM
 A python script wich can automatically forward Telegram messages from a channel, group or chat to another channel, group or chat. This script can easily be deployed in the cloud through Heroku.
 
+wire-gram in it's current stage can handle text messages and pictures !
+
 ## Installation
 
 Make sure to change the values of __ACCOUNT__, __PHONE_NUMBER__, __API_ID__, __API_HASH__, __SOURCE_CHAT__ and __TARGET_CHAT__ in ```wire-gram.py``` :
@@ -57,9 +59,14 @@ This command will open a worker dyno :
 heroku ps:sclae worker=1
 ```
 
-## 
+## Roadmap
+wire-gram is in an early yet working stage. Here are some features that will be added for the future :
 
+* Handle Deleted messages
+* Handle edited messages
+* Handle media (other than images)
+* Move into a web application (Django?)
+* Add inputs
 
-
-
-
+## Contributing
+Please open an issue to disscuss what you would like to add to the project.
