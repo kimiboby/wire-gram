@@ -5,4 +5,5 @@ A python script wich can automatically forward Telegram messages from a channel,
 
 #### Requirements
 This script requires [Pyrogram](https://docs.pyrogram.org/) framework. You can install it by running the following command in your terminal :
+
 ```pip3 install -U pyrogram tgcrypto```
