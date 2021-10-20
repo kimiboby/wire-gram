@@ -10,4 +10,5 @@ This script requires [Pyrogram](https://docs.pyrogram.org/) framework. You can i
 
 #### Telegram API
 You can get your API_ID and API_HASH from the [Telegram offical API](https://my.telegram.org/).
+
 Visit https://core.telegram.org/ for more details.
