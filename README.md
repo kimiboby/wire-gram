@@ -25,9 +25,13 @@ Heroku runs your program on a web dyno(thread) by default. wire-gram is not at t
 
  After creating the heroku app and deploying the script you need to run the following commands :
 
-```heroku ps:scale web=0``` This command will kill the default web dyno.
+This command will kill the default web dyno :
 
-```heroku ps:sclae worker=1``` This command will open a worker dyno.
+```heroku ps:scale web=0```
+
+This command will open a worker dyno :
+
+```heroku ps:sclae worker=1```
 
 
 
