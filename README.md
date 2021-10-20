@@ -8,7 +8,9 @@ Make sure to change the values of __ACCOUNT__, __PHONE_NUMBER__, __API_ID__, __A
 #### Requirements
 wire-gram requires [Pyrogram](https://docs.pyrogram.org/) framework. You can install it by running the following command in your terminal :
 
-```pip3 install -U pyrogram tgcrypto```
+```bash
+pip3 install -U pyrogram tgcrypto
+```
 
 #### Telegram API
 You can get your __API_ID__ and __API_HASH__ from the [Telegram offical API](https://my.telegram.org/).
@@ -27,11 +29,17 @@ Heroku runs your program on a web dyno(thread) by default. wire-gram is not at t
 
 This command will kill the default web dyno :
 
-```heroku ps:scale web=0```
+```bash
+heroku ps:scale web=0
+```
 
 This command will open a worker dyno :
 
-```heroku ps:sclae worker=1```
+```bash
+heroku ps:sclae worker=1
+```
+
+## 
 
 
 
