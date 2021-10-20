@@ -3,7 +3,25 @@ A python script wich can automatically forward Telegram messages from a channel,
 
 ## Installation
 
-Make sure to change the values of __ACCOUNT__, __PHONE_NUMBER__, __API_ID__, __API_HASH__, __SOURCE_CHAT__ and __TARGET_CHAT__ in ```wire-gram.py```.
+Make sure to change the values of __ACCOUNT__, __PHONE_NUMBER__, __API_ID__, __API_HASH__, __SOURCE_CHAT__ and __TARGET_CHAT__ in ```wire-gram.py``` :
+```python
+# ----------- CONFIG ---------- #
+# ACCOUNT & PHONE_NUMBER have to be a STRING
+ACCOUNT = "YOUR TELEGRAM USERNAME"
+PHONE_NUMBER = "YOUR TELEGRAM PHONE NUMBER"
+
+
+# API ID
+API_ID = 111111                                                 # YOUR TELEGRAM API ID
+API_HASH = "fj232jfj20rj0932ir203jf9j320ur22"                   # YOUR TELEGRAM API HASH
+
+
+# CHAT IDs
+SOURCE_CHAT = 0                                                 # The ID of the chat where you want to listen for messages (can be a table of int for multiple source chats)
+TARGET_CHAT = 0                                                 # The ID of the chat where you wanna forward messages to (can be a table of int for multiple target chats)
+# ----------------------------- #
+```
+
 
 #### Requirements
 wire-gram requires [Pyrogram](https://docs.pyrogram.org/) framework. You can install it by running the following command in your terminal :
